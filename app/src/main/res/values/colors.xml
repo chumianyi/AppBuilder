@@ -8,4 +8,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="canvas_bg">#FAFAFA</color>
     <color name="surface_variant">#E8E0EB</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant_color">#E8E0EB</color>
 </resources>
