@@ -1,5 +1,6 @@
 package com.mian.appbuilder.codegen
 
+import android.view.View
 import com.mian.appbuilder.model.WidgetModel
 
 /**
@@ -7,32 +8,12 @@ import com.mian.appbuilder.model.WidgetModel
  */
 object KotlinGenerator {
 
+    private fun Int.toDp(): String = "($this * resources.displayMetrics.density).toInt()"
+
     fun generateActivity(widgets: List<WidgetModel>, projectName: String): String {
         val packageName = "com.generated.${projectName.lowercase().replace(" ", "")}"
-        val imports = mutableSetOf(
-            "android.os.Bundle",
-            "androidx.appcompat.app.AppCompatActivity",
-            "androidx.constraintlayout.widget.ConstraintLayout",
-            "android.widget.Button",
-            "android.widget.TextView",
-            "android.widget.EditText",
-            "android.widget.ImageView",
-            "android.widget.ScrollView",
-            "android.widget.LinearLayout",
-            "androidx.recyclerview.widget.RecyclerView",
-            "com.google.android.material.card.MaterialCardView",
-            "com.google.android.material.floatingactionbutton.FloatingActionButton",
-            "com.google.android.material.bottomnavigation.BottomNavigationView",
-            "com.google.android.material.textfield.TextInputLayout",
-            "android.widget.ProgressBar",
-            "android.widget.SeekBar",
-            "android.widget.Switch",
-            "android.widget.CheckBox",
-            "android.widget.RadioButton",
-            "androidx.core.widget.NestedScrollView"
-        )
 
-        val widgetInit = widgets.joinToString("\n        ") { generateWidgetInit(it, imports) }
+        val widgetInit = widgets.joinToString("\n        ") { generateWidgetInit(it) }
 
         return """package $packageName
 
@@ -64,37 +45,39 @@ class MainActivity : AppCompatActivity() {
 """
     }
 
-    private fun generateWidgetInit(w: WidgetModel, imports: Set<String>): String {
+    private fun generateWidgetInit(w: WidgetModel): String {
         val id = "widget_${w.id.take(8)}"
+        val wDp = w.width.toInt().toDp()
+        val hDp = w.height.toInt().toDp()
+        val xDp = w.x.toInt().toDp()
+        val yDp = w.y.toInt().toDp()
+
         return when (w.type) {
             WidgetModel.TYPE_BUTTON -> {
-                val text = w.properties["text"] ?: "Button"
-                val bg = w.properties["backgroundColor"] ?: "#6750A4"
+                val text = (w.properties["text"] ?: "Button").toString()
+                val bg = (w.properties["backgroundColor"] ?: "#6750A4").toString()
                 """val $id = Button(this).apply {
             text = "$text"
             setBackgroundColor(android.graphics.Color.parseColor("$bg"))
             setTextColor(android.graphics.Color.WHITE)
-            cornerRadius = 24
             isAllCaps = false
-           .setOnClickListener { /* TODO: Add click action */ }
+            setOnClickListener { /* TODO: Add click action */ }
         }
-        rootLayout.addView($id, ConstraintLayout.LayoutParams(
-            ${w.width.toInt().dp}, ${w.height.toInt().dp
-        ).apply {
+        rootLayout.addView($id, ConstraintLayout.LayoutParams($wDp, $hDp).apply {
             leftToLeft = ConstraintLayout.LayoutParams.PARENT_ID
             topToTop = ConstraintLayout.LayoutParams.PARENT_ID
-            marginStart = ${w.x.toInt().dp}
-            topMargin = ${w.y.toInt().dp}
+            marginStart = $xDp
+            topMargin = $yDp
         })"""
             }
             WidgetModel.TYPE_TEXT -> {
-                val text = w.properties["text"] ?: "Text"
-                val color = w.properties["textColor"] ?: "#1C1B1F"
-                val size = w.properties["textSize"] ?: 16
+                val text = (w.properties["text"] ?: "Text").toString()
+                val color = (w.properties["textColor"] ?: "#1C1B1F").toString()
+                val size = (w.properties["textSize"] as? Number)?.toFloat() ?: 16f
                 """val $id = TextView(this).apply {
             text = "$text"
             setTextColor(android.graphics.Color.parseColor("$color"))
-            textSize = $size.toFloat()
+            textSize = $size
         }
         rootLayout.addView($id, ConstraintLayout.LayoutParams(
             ConstraintLayout.LayoutParams.WRAP_CONTENT,
@@ -102,27 +85,25 @@ class MainActivity : AppCompatActivity() {
         ).apply {
             leftToLeft = ConstraintLayout.LayoutParams.PARENT_ID
             topToTop = ConstraintLayout.LayoutParams.PARENT_ID
-            marginStart = ${w.x.toInt().dp}
-            topMargin = ${w.y.toInt().dp}
+            marginStart = $xDp
+            topMargin = $yDp
         })"""
             }
             WidgetModel.TYPE_INPUT -> {
-                val hint = w.properties["hint"] ?: "Enter text..."
+                val hint = (w.properties["hint"] ?: "Enter text...").toString()
                 """val $id = EditText(this).apply {
             hint = "$hint"
             setPadding(24, 24, 24, 24)
         }
-        rootLayout.addView($id, ConstraintLayout.LayoutParams(
-            ${w.width.toInt().dp}, ${w.height.toInt().dp
-        ).apply {
+        rootLayout.addView($id, ConstraintLayout.LayoutParams($wDp, $hDp).apply {
             leftToLeft = ConstraintLayout.LayoutParams.PARENT_ID
             topToTop = ConstraintLayout.LayoutParams.PARENT_ID
-            marginStart = ${w.x.toInt().dp}
-            topMargin = ${w.y.toInt().dp}
+            marginStart = $xDp
+            topMargin = $yDp
         })"""
             }
             WidgetModel.TYPE_CARD -> {
-                val title = w.properties["title"] ?: "Card Title"
+                val title = (w.properties["title"] ?: "Card Title").toString()
                 """val $id = MaterialCardView(this).apply {
             radius = 16f
             cardElevation = 4f
@@ -131,13 +112,11 @@ class MainActivity : AppCompatActivity() {
                 setPadding(32, 32, 32, 32)
             })
         }
-        rootLayout.addView($id, ConstraintLayout.LayoutParams(
-            ${w.width.toInt().dp}, ${w.height.toInt().dp
-        ).apply {
+        rootLayout.addView($id, ConstraintLayout.LayoutParams($wDp, $hDp).apply {
             leftToLeft = ConstraintLayout.LayoutParams.PARENT_ID
             topToTop = ConstraintLayout.LayoutParams.PARENT_ID
-            marginStart = ${w.x.toInt().dp}
-            topMargin = ${w.y.toInt().dp}
+            marginStart = $xDp
+            topMargin = $yDp
         })"""
             }
             WidgetModel.TYPE_FAB -> {
@@ -149,15 +128,7 @@ class MainActivity : AppCompatActivity() {
             }
             WidgetModel.TYPE_NAV_BAR -> {
                 """val $id = BottomNavigationView(this).apply {
-            inflateMenu(R.menu.bottom_nav)
-            setOnItemSelectedListener { item ->
-                when (item.itemId) {
-                    R.id.nav_home -> { /* TODO */ true }
-                    R.id.nav_search -> { /* TODO */ true }
-                    R.id.nav_profile -> { /* TODO */ true }
-                    else -> false
-                }
-            }
+            setOnItemSelectedListener { item -> true }
         }
         rootLayout.addView($id, ConstraintLayout.LayoutParams(
             ConstraintLayout.LayoutParams.MATCH_PARENT,
@@ -169,23 +140,19 @@ class MainActivity : AppCompatActivity() {
         })"""
             }
             else -> {
-                """// ${w.name} (${w.type}) at (${w.x.toInt()}, ${w.y.toInt()})
+                """// ${w.name} (${w.type})
         val $id = View(this).apply {
             setBackgroundColor(0xFFEEEEEE.toInt())
         }
-        rootLayout.addView($id, ConstraintLayout.LayoutParams(
-            ${w.width.toInt().dp}, ${w.height.toInt().dp
-        ).apply {
+        rootLayout.addView($id, ConstraintLayout.LayoutParams($wDp, $hDp).apply {
             leftToLeft = ConstraintLayout.LayoutParams.PARENT_ID
             topToTop = ConstraintLayout.LayoutParams.PARENT_ID
-            marginStart = ${w.x.toInt().dp}
-            topMargin = ${w.y.toInt().dp}
+            marginStart = $xDp
+            topMargin = $yDp
         })"""
             }
         }
     }
-
-    private val Int.dp: String get() = "(${this} * resources.displayMetrics.density).toInt()"
 
     fun generateBuildGradle(appName: String, packageName: String): String {
         return """plugins {
@@ -232,8 +199,6 @@ dependencies {
     implementation 'com.google.android.material:material:1.12.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'androidx.recyclerview:recyclerview:1.3.2'
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0'
-    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.7.0'
 }
 """
     }
@@ -241,15 +206,12 @@ dependencies {
     fun generateAndroidManifest(packageName: String): String {
         return """<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/Theme.Material3.DayNight">
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+        <activity android:name=".MainActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
