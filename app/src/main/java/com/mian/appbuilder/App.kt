@@ -4,11 +4,12 @@ import android.app.Application
 import com.mian.appbuilder.db.AppDatabase
 
 class App : Application() {
-    lateinit var database: AppDatabase
-        private set
 
     companion object {
         lateinit var instance: App
+            private set
+
+        lateinit var database: AppDatabase
             private set
     }
 

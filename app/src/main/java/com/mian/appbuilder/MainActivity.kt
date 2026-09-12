@@ -120,7 +120,7 @@ class MainActivity : AppCompatActivity() {
                 text = label
                 textSize = 12f
                 setPadding(32, 24, 32, 24)
-                setBackgroundResource(com.google.android.material.R.drawable.material_card_shape)
+                setBackgroundResource(R.drawable.bg_component_chip)
                 setTextColor(Color.parseColor("#6750A4"))
                 val lp = LinearLayout.LayoutParams(
                     LinearLayout.LayoutParams.WRAP_CONTENT,
