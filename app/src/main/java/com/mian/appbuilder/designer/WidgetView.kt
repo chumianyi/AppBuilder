@@ -101,7 +101,7 @@ class WidgetView @JvmOverloads constructor(
             setTextColor(colorOrDefault("textColor", "#FFFFFF"))
             textSize = floatOrDefault("textSize", 16f)
             setBackgroundColor(colorOrDefault("backgroundColor", "#6750A4"))
-            cornerRadius = floatOrDefault("cornerRadius", 24f)
+            cornerRadius = floatOrDefault("cornerRadius", 24f).toInt()
             isAllCaps = false
             elevation = 4f
         }
@@ -208,7 +208,7 @@ class WidgetView @JvmOverloads constructor(
         val row = LinearLayout(context).apply {
             orientation = LinearLayout.HORIZONTAL
             gravity = Gravity.CENTER_VERTICAL
-            padding = 24
+            setPadding(24, 24, 24, 24)
         }
         val icon = TextView(context).apply {
             text = "🔍"

@@ -4,7 +4,6 @@ import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.appbar.MaterialToolbar
-import com.mian.appbuilder.BuildConfig
 import com.mian.appbuilder.R
 
 class AboutActivity : AppCompatActivity() {
@@ -19,7 +18,7 @@ class AboutActivity : AppCompatActivity() {
 
         val tv = findViewById<TextView>(R.id.aboutText)
         tv.text = """
-AppBuilder v${BuildConfig.VERSION_NAME}
+AppBuilder v1.0.0
 
 A drag-and-drop Android app builder with Material 3 and Morphicon icons.
 

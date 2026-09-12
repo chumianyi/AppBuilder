@@ -544,7 +544,7 @@ class MainActivity : AppCompatActivity() {
             appendLine("--- MainActivity.kt ---")
             appendLine(mainActivity)
         }
-        showExportResult("Kotlin", fullProject, "$projectName_project.txt")
+        showExportResult("Kotlin", fullProject, "${projectName}_project.txt")
     }
 
     private fun showExportResult(format: String, code: String, filename: String) {

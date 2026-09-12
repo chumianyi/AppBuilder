@@ -62,7 +62,7 @@ class PreviewActivity : AppCompatActivity() {
 
     private fun createPreviewView(w: WidgetModel): View {
         return when (w.type) {
-            WidgetModel.TYPE_BUTTON -> android.widget.Button(this).apply {
+            WidgetModel.TYPE_BUTTON -> com.google.android.material.button.MaterialButton(this).apply {
                 text = w.properties["text"]?.toString() ?: "Button"
                 setBackgroundColor(Color.parseColor(w.properties["backgroundColor"]?.toString() ?: "#6750A4"))
                 setTextColor(Color.parseColor(w.properties["textColor"]?.toString() ?: "#FFFFFF"))
