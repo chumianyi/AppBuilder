@@ -93,9 +93,7 @@ dependencies {
     // SVG support
     implementation 'com.caverock:androidsvg-aar:1.4'
 
-    // Color picker
-    implementation 'com.skydoves:colorpickerview:2.2.4'
-
+    // Color utilities (built into Android)
     // File picker
     implementation 'androidx.documentfile:documentfile:1.0.1'
 
