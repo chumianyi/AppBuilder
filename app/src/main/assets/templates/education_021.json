@@ -1,0 +1,2618 @@
+{
+  "id": "education_021",
+  "name": "Language",
+  "category": "education",
+  "description": "Complete Language template for education applications. Fully customizable and ready to use with Material 3 design. Includes all necessary components and can be exported as HTML or Kotlin.",
+  "version": "1.0.0",
+  "author": "AppBuilder Team",
+  "license": "GPL-3.0",
+  "minSdk": 24,
+  "targetSdk": 34,
+  "dependencies": [
+    "material3",
+    "room",
+    "navigation",
+    "lottie"
+  ],
+  "widgets": [
+    {
+      "id": "w_10",
+      "type": "button",
+      "name": "Widget 10",
+      "x": 470,
+      "y": 830,
+      "width": 210,
+      "height": 250,
+      "properties": {
+        "text": "Component 10 in Language",
+        "title": "Language Card",
+        "hint": "Enter Language...",
+        "backgroundColor": "#6750A4",
+        "textColor": "#FFFFFF",
+        "cornerRadius": 16,
+        "textSize": 14,
+        "elevation": 4,
+        "padding": 16,
+        "margin": 8,
+        "icon": "widgets",
+        "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+        "tags": [
+          "education",
+          "Language",
+          "template",
+          "appbuilder",
+          "m3",
+          "material3"
+        ],
+        "actions": [
+          "onClick",
+          "onLongClick",
+          "onSwipeLeft",
+          "onSwipeRight",
+          "onDrag",
+          "onDrop"
+        ],
+        "style": "material3",
+        "theme": "dynamic",
+        "animation": "fade_in",
+        "duration": 300,
+        "delay": 0,
+        "easing": "ease_out",
+        "accessibility": {
+          "contentDescription": "Language widget",
+          "importantForAccessibility": "yes"
+        }
+      }
+    },
+    {
+      "id": "w_11",
+      "type": "text",
+      "name": "Widget 11",
+      "x": 517,
+      "y": 913,
+      "width": 241,
+      "height": 267,
+      "properties": {
+        "text": "Component 11 in Language",
+        "title": "Language Card",
+        "hint": "Enter Language...",
+        "backgroundColor": "#6750A4",
+        "textColor": "#FFFFFF",
+        "cornerRadius": 16,
+        "textSize": 14,
+        "elevation": 4,
+        "padding": 16,
+        "margin": 8,
+        "icon": "widgets",
+        "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+        "tags": [
+          "education",
+          "Language",
+          "template",
+          "appbuilder",
+          "m3",
+          "material3"
+        ],
+        "actions": [
+          "onClick",
+          "onLongClick",
+          "onSwipeLeft",
+          "onSwipeRight",
+          "onDrag",
+          "onDrop"
+        ],
+        "style": "material3",
+        "theme": "dynamic",
+        "animation": "fade_in",
+        "duration": 300,
+        "delay": 0,
+        "easing": "ease_out",
+        "accessibility": {
+          "contentDescription": "Language widget",
+          "importantForAccessibility": "yes"
+        }
+      }
+    },
+    {
+      "id": "w_12",
+      "type": "card",
+      "name": "Widget 12",
+      "x": 564,
+      "y": 996,
+      "width": 272,
+      "height": 84,
+      "properties": {
+        "text": "Component 12 in Language",
+        "title": "Language Card",
+        "hint": "Enter Language...",
+        "backgroundColor": "#6750A4",
+        "textColor": "#FFFFFF",
+        "cornerRadius": 16,
+        "textSize": 14,
+        "elevation": 4,
+        "padding": 16,
+        "margin": 8,
+        "icon": "widgets",
+        "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+        "tags": [
+          "education",
+          "Language",
+          "template",
+          "appbuilder",
+          "m3",
+          "material3"
+        ],
+        "actions": [
+          "onClick",
+          "onLongClick",
+          "onSwipeLeft",
+          "onSwipeRight",
+          "onDrag",
+          "onDrop"
+        ],
+        "style": "material3",
+        "theme": "dynamic",
+        "animation": "fade_in",
+        "duration": 300,
+        "delay": 0,
+        "easing": "ease_out",
+        "accessibility": {
+          "contentDescription": "Language widget",
+          "importantForAccessibility": "yes"
+        }
+      }
+    },
+    {
+      "id": "w_13",
+      "type": "input",
+      "name": "Widget 13",
+      "x": 611,
+      "y": 1079,
+      "width": 303,
+      "height": 101,
+      "properties": {
+        "text": "Component 13 in Language",
+        "title": "Language Card",
+        "hint": "Enter Language...",
+        "backgroundColor": "#6750A4",
+        "textColor": "#FFFFFF",
+        "cornerRadius": 16,
+        "textSize": 14,
+        "elevation": 4,
+        "padding": 16,
+        "margin": 8,
+        "icon": "widgets",
+        "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+        "tags": [
+          "education",
+          "Language",
+          "template",
+          "appbuilder",
+          "m3",
+          "material3"
+        ],
+        "actions": [
+          "onClick",
+          "onLongClick",
+          "onSwipeLeft",
+          "onSwipeRight",
+          "onDrag",
+          "onDrop"
+        ],
+        "style": "material3",
+        "theme": "dynamic",
+        "animation": "fade_in",
+        "duration": 300,
+        "delay": 0,
+        "easing": "ease_out",
+        "accessibility": {
+          "contentDescription": "Language widget",
+          "importantForAccessibility": "yes"
+        }
+      }
+    },
+    {
+      "id": "w_14",
+      "type": "list",
+      "name": "Widget 14",
+      "x": 658,
+      "y": 1162,
+      "width": 334,
+      "height": 118,
+      "properties": {
+        "text": "Component 14 in Language",
+        "title": "Language Card",
+        "hint": "Enter Language...",
+        "backgroundColor": "#6750A4",
+        "textColor": "#FFFFFF",
+        "cornerRadius": 16,
+        "textSize": 14,
+        "elevation": 4,
+        "padding": 16,
+        "margin": 8,
+        "icon": "widgets",
+        "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+        "tags": [
+          "education",
+          "Language",
+          "template",
+          "appbuilder",
+          "m3",
+          "material3"
+        ],
+        "actions": [
+          "onClick",
+          "onLongClick",
+          "onSwipeLeft",
+          "onSwipeRight",
+          "onDrag",
+          "onDrop"
+        ],
+        "style": "material3",
+        "theme": "dynamic",
+        "animation": "fade_in",
+        "duration": 300,
+        "delay": 0,
+        "easing": "ease_out",
+        "accessibility": {
+          "contentDescription": "Language widget",
+          "importantForAccessibility": "yes"
+        }
+      }
+    },
+    {
+      "id": "w_15",
+      "type": "image",
+      "name": "Widget 15",
+      "x": 705,
+      "y": 1245,
+      "width": 365,
+      "height": 135,
+      "properties": {
+        "text": "Component 15 in Language",
+        "title": "Language Card",
+        "hint": "Enter Language...",
+        "backgroundColor": "#6750A4",
+        "textColor": "#FFFFFF",
+        "cornerRadius": 16,
+        "textSize": 14,
+        "elevation": 4,
+        "padding": 16,
+        "margin": 8,
+        "icon": "widgets",
+        "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+        "tags": [
+          "education",
+          "Language",
+          "template",
+          "appbuilder",
+          "m3",
+          "material3"
+        ],
+        "actions": [
+          "onClick",
+          "onLongClick",
+          "onSwipeLeft",
+          "onSwipeRight",
+          "onDrag",
+          "onDrop"
+        ],
+        "style": "material3",
+        "theme": "dynamic",
+        "animation": "fade_in",
+        "duration": 300,
+        "delay": 0,
+        "easing": "ease_out",
+        "accessibility": {
+          "contentDescription": "Language widget",
+          "importantForAccessibility": "yes"
+        }
+      }
+    },
+    {
+      "id": "w_16",
+      "type": "search_bar",
+      "name": "Widget 16",
+      "x": 752,
+      "y": 1328,
+      "width": 396,
+      "height": 152,
+      "properties": {
+        "text": "Component 16 in Language",
+        "title": "Language Card",
+        "hint": "Enter Language...",
+        "backgroundColor": "#6750A4",
+        "textColor": "#FFFFFF",
+        "cornerRadius": 16,
+        "textSize": 14,
+        "elevation": 4,
+        "padding": 16,
+        "margin": 8,
+        "icon": "widgets",
+        "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+        "tags": [
+          "education",
+          "Language",
+          "template",
+          "appbuilder",
+          "m3",
+          "material3"
+        ],
+        "actions": [
+          "onClick",
+          "onLongClick",
+          "onSwipeLeft",
+          "onSwipeRight",
+          "onDrag",
+          "onDrop"
+        ],
+        "style": "material3",
+        "theme": "dynamic",
+        "animation": "fade_in",
+        "duration": 300,
+        "delay": 0,
+        "easing": "ease_out",
+        "accessibility": {
+          "contentDescription": "Language widget",
+          "importantForAccessibility": "yes"
+        }
+      }
+    },
+    {
+      "id": "w_17",
+      "type": "nav_bar",
+      "name": "Widget 17",
+      "x": 799,
+      "y": 1411,
+      "width": 427,
+      "height": 169,
+      "properties": {
+        "text": "Component 17 in Language",
+        "title": "Language Card",
+        "hint": "Enter Language...",
+        "backgroundColor": "#6750A4",
+        "textColor": "#FFFFFF",
+        "cornerRadius": 16,
+        "textSize": 14,
+        "elevation": 4,
+        "padding": 16,
+        "margin": 8,
+        "icon": "widgets",
+        "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+        "tags": [
+          "education",
+          "Language",
+          "template",
+          "appbuilder",
+          "m3",
+          "material3"
+        ],
+        "actions": [
+          "onClick",
+          "onLongClick",
+          "onSwipeLeft",
+          "onSwipeRight",
+          "onDrag",
+          "onDrop"
+        ],
+        "style": "material3",
+        "theme": "dynamic",
+        "animation": "fade_in",
+        "duration": 300,
+        "delay": 0,
+        "easing": "ease_out",
+        "accessibility": {
+          "contentDescription": "Language widget",
+          "importantForAccessibility": "yes"
+        }
+      }
+    },
+    {
+      "id": "w_18",
+      "type": "tab",
+      "name": "Widget 18",
+      "x": 846,
+      "y": 1494,
+      "width": 458,
+      "height": 186,
+      "properties": {
+        "text": "Component 18 in Language",
+        "title": "Language Card",
+        "hint": "Enter Language...",
+        "backgroundColor": "#6750A4",
+        "textColor": "#FFFFFF",
+        "cornerRadius": 16,
+        "textSize": 14,
+        "elevation": 4,
+        "padding": 16,
+        "margin": 8,
+        "icon": "widgets",
+        "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+        "tags": [
+          "education",
+          "Language",
+          "template",
+          "appbuilder",
+          "m3",
+          "material3"
+        ],
+        "actions": [
+          "onClick",
+          "onLongClick",
+          "onSwipeLeft",
+          "onSwipeRight",
+          "onDrag",
+          "onDrop"
+        ],
+        "style": "material3",
+        "theme": "dynamic",
+        "animation": "fade_in",
+        "duration": 300,
+        "delay": 0,
+        "easing": "ease_out",
+        "accessibility": {
+          "contentDescription": "Language widget",
+          "importantForAccessibility": "yes"
+        }
+      }
+    },
+    {
+      "id": "w_19",
+      "type": "toolbar",
+      "name": "Widget 19",
+      "x": 893,
+      "y": 1577,
+      "width": 489,
+      "height": 203,
+      "properties": {
+        "text": "Component 19 in Language",
+        "title": "Language Card",
+        "hint": "Enter Language...",
+        "backgroundColor": "#6750A4",
+        "textColor": "#FFFFFF",
+        "cornerRadius": 16,
+        "textSize": 14,
+        "elevation": 4,
+        "padding": 16,
+        "margin": 8,
+        "icon": "widgets",
+        "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+        "tags": [
+          "education",
+          "Language",
+          "template",
+          "appbuilder",
+          "m3",
+          "material3"
+        ],
+        "actions": [
+          "onClick",
+          "onLongClick",
+          "onSwipeLeft",
+          "onSwipeRight",
+          "onDrag",
+          "onDrop"
+        ],
+        "style": "material3",
+        "theme": "dynamic",
+        "animation": "fade_in",
+        "duration": 300,
+        "delay": 0,
+        "easing": "ease_out",
+        "accessibility": {
+          "contentDescription": "Language widget",
+          "importantForAccessibility": "yes"
+        }
+      }
+    },
+    {
+      "id": "w_20",
+      "type": "button",
+      "name": "Widget 20",
+      "x": 40,
+      "y": 60,
+      "width": 220,
+      "height": 220,
+      "properties": {
+        "text": "Component 20 in Language",
+        "title": "Language Card",
+        "hint": "Enter Language...",
+        "backgroundColor": "#6750A4",
+        "textColor": "#FFFFFF",
+        "cornerRadius": 16,
+        "textSize": 14,
+        "elevation": 4,
+        "padding": 16,
+        "margin": 8,
+        "icon": "widgets",
+        "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+        "tags": [
+          "education",
+          "Language",
+          "template",
+          "appbuilder",
+          "m3",
+          "material3"
+        ],
+        "actions": [
+          "onClick",
+          "onLongClick",
+          "onSwipeLeft",
+          "onSwipeRight",
+          "onDrag",
+          "onDrop"
+        ],
+        "style": "material3",
+        "theme": "dynamic",
+        "animation": "fade_in",
+        "duration": 300,
+        "delay": 0,
+        "easing": "ease_out",
+        "accessibility": {
+          "contentDescription": "Language widget",
+          "importantForAccessibility": "yes"
+        }
+      }
+    },
+    {
+      "id": "w_21",
+      "type": "text",
+      "name": "Widget 21",
+      "x": 87,
+      "y": 143,
+      "width": 251,
+      "height": 237,
+      "properties": {
+        "text": "Component 21 in Language",
+        "title": "Language Card",
+        "hint": "Enter Language...",
+        "backgroundColor": "#6750A4",
+        "textColor": "#FFFFFF",
+        "cornerRadius": 16,
+        "textSize": 14,
+        "elevation": 4,
+        "padding": 16,
+        "margin": 8,
+        "icon": "widgets",
+        "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+        "tags": [
+          "education",
+          "Language",
+          "template",
+          "appbuilder",
+          "m3",
+          "material3"
+        ],
+        "actions": [
+          "onClick",
+          "onLongClick",
+          "onSwipeLeft",
+          "onSwipeRight",
+          "onDrag",
+          "onDrop"
+        ],
+        "style": "material3",
+        "theme": "dynamic",
+        "animation": "fade_in",
+        "duration": 300,
+        "delay": 0,
+        "easing": "ease_out",
+        "accessibility": {
+          "contentDescription": "Language widget",
+          "importantForAccessibility": "yes"
+        }
+      }
+    },
+    {
+      "id": "w_22",
+      "type": "card",
+      "name": "Widget 22",
+      "x": 134,
+      "y": 226,
+      "width": 282,
+      "height": 254,
+      "properties": {
+        "text": "Component 22 in Language",
+        "title": "Language Card",
+        "hint": "Enter Language...",
+        "backgroundColor": "#6750A4",
+        "textColor": "#FFFFFF",
+        "cornerRadius": 16,
+        "textSize": 14,
+        "elevation": 4,
+        "padding": 16,
+        "margin": 8,
+        "icon": "widgets",
+        "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+        "tags": [
+          "education",
+          "Language",
+          "template",
+          "appbuilder",
+          "m3",
+          "material3"
+        ],
+        "actions": [
+          "onClick",
+          "onLongClick",
+          "onSwipeLeft",
+          "onSwipeRight",
+          "onDrag",
+          "onDrop"
+        ],
+        "style": "material3",
+        "theme": "dynamic",
+        "animation": "fade_in",
+        "duration": 300,
+        "delay": 0,
+        "easing": "ease_out",
+        "accessibility": {
+          "contentDescription": "Language widget",
+          "importantForAccessibility": "yes"
+        }
+      }
+    },
+    {
+      "id": "w_23",
+      "type": "input",
+      "name": "Widget 23",
+      "x": 181,
+      "y": 309,
+      "width": 313,
+      "height": 271,
+      "properties": {
+        "text": "Component 23 in Language",
+        "title": "Language Card",
+        "hint": "Enter Language...",
+        "backgroundColor": "#6750A4",
+        "textColor": "#FFFFFF",
+        "cornerRadius": 16,
+        "textSize": 14,
+        "elevation": 4,
+        "padding": 16,
+        "margin": 8,
+        "icon": "widgets",
+        "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+        "tags": [
+          "education",
+          "Language",
+          "template",
+          "appbuilder",
+          "m3",
+          "material3"
+        ],
+        "actions": [
+          "onClick",
+          "onLongClick",
+          "onSwipeLeft",
+          "onSwipeRight",
+          "onDrag",
+          "onDrop"
+        ],
+        "style": "material3",
+        "theme": "dynamic",
+        "animation": "fade_in",
+        "duration": 300,
+        "delay": 0,
+        "easing": "ease_out",
+        "accessibility": {
+          "contentDescription": "Language widget",
+          "importantForAccessibility": "yes"
+        }
+      }
+    },
+    {
+      "id": "w_24",
+      "type": "list",
+      "name": "Widget 24",
+      "x": 228,
+      "y": 392,
+      "width": 344,
+      "height": 88,
+      "properties": {
+        "text": "Component 24 in Language",
+        "title": "Language Card",
+        "hint": "Enter Language...",
+        "backgroundColor": "#6750A4",
+        "textColor": "#FFFFFF",
+        "cornerRadius": 16,
+        "textSize": 14,
+        "elevation": 4,
+        "padding": 16,
+        "margin": 8,
+        "icon": "widgets",
+        "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+        "tags": [
+          "education",
+          "Language",
+          "template",
+          "appbuilder",
+          "m3",
+          "material3"
+        ],
+        "actions": [
+          "onClick",
+          "onLongClick",
+          "onSwipeLeft",
+          "onSwipeRight",
+          "onDrag",
+          "onDrop"
+        ],
+        "style": "material3",
+        "theme": "dynamic",
+        "animation": "fade_in",
+        "duration": 300,
+        "delay": 0,
+        "easing": "ease_out",
+        "accessibility": {
+          "contentDescription": "Language widget",
+          "importantForAccessibility": "yes"
+        }
+      }
+    },
+    {
+      "id": "w_25",
+      "type": "image",
+      "name": "Widget 25",
+      "x": 275,
+      "y": 475,
+      "width": 375,
+      "height": 105,
+      "properties": {
+        "text": "Component 25 in Language",
+        "title": "Language Card",
+        "hint": "Enter Language...",
+        "backgroundColor": "#6750A4",
+        "textColor": "#FFFFFF",
+        "cornerRadius": 16,
+        "textSize": 14,
+        "elevation": 4,
+        "padding": 16,
+        "margin": 8,
+        "icon": "widgets",
+        "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+        "tags": [
+          "education",
+          "Language",
+          "template",
+          "appbuilder",
+          "m3",
+          "material3"
+        ],
+        "actions": [
+          "onClick",
+          "onLongClick",
+          "onSwipeLeft",
+          "onSwipeRight",
+          "onDrag",
+          "onDrop"
+        ],
+        "style": "material3",
+        "theme": "dynamic",
+        "animation": "fade_in",
+        "duration": 300,
+        "delay": 0,
+        "easing": "ease_out",
+        "accessibility": {
+          "contentDescription": "Language widget",
+          "importantForAccessibility": "yes"
+        }
+      }
+    },
+    {
+      "id": "w_26",
+      "type": "search_bar",
+      "name": "Widget 26",
+      "x": 322,
+      "y": 558,
+      "width": 406,
+      "height": 122,
+      "properties": {
+        "text": "Component 26 in Language",
+        "title": "Language Card",
+        "hint": "Enter Language...",
+        "backgroundColor": "#6750A4",
+        "textColor": "#FFFFFF",
+        "cornerRadius": 16,
+        "textSize": 14,
+        "elevation": 4,
+        "padding": 16,
+        "margin": 8,
+        "icon": "widgets",
+        "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+        "tags": [
+          "education",
+          "Language",
+          "template",
+          "appbuilder",
+          "m3",
+          "material3"
+        ],
+        "actions": [
+          "onClick",
+          "onLongClick",
+          "onSwipeLeft",
+          "onSwipeRight",
+          "onDrag",
+          "onDrop"
+        ],
+        "style": "material3",
+        "theme": "dynamic",
+        "animation": "fade_in",
+        "duration": 300,
+        "delay": 0,
+        "easing": "ease_out",
+        "accessibility": {
+          "contentDescription": "Language widget",
+          "importantForAccessibility": "yes"
+        }
+      }
+    },
+    {
+      "id": "w_27",
+      "type": "nav_bar",
+      "name": "Widget 27",
+      "x": 369,
+      "y": 641,
+      "width": 437,
+      "height": 139,
+      "properties": {
+        "text": "Component 27 in Language",
+        "title": "Language Card",
+        "hint": "Enter Language...",
+        "backgroundColor": "#6750A4",
+        "textColor": "#FFFFFF",
+        "cornerRadius": 16,
+        "textSize": 14,
+        "elevation": 4,
+        "padding": 16,
+        "margin": 8,
+        "icon": "widgets",
+        "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+        "tags": [
+          "education",
+          "Language",
+          "template",
+          "appbuilder",
+          "m3",
+          "material3"
+        ],
+        "actions": [
+          "onClick",
+          "onLongClick",
+          "onSwipeLeft",
+          "onSwipeRight",
+          "onDrag",
+          "onDrop"
+        ],
+        "style": "material3",
+        "theme": "dynamic",
+        "animation": "fade_in",
+        "duration": 300,
+        "delay": 0,
+        "easing": "ease_out",
+        "accessibility": {
+          "contentDescription": "Language widget",
+          "importantForAccessibility": "yes"
+        }
+      }
+    },
+    {
+      "id": "w_28",
+      "type": "tab",
+      "name": "Widget 28",
+      "x": 416,
+      "y": 724,
+      "width": 468,
+      "height": 156,
+      "properties": {
+        "text": "Component 28 in Language",
+        "title": "Language Card",
+        "hint": "Enter Language...",
+        "backgroundColor": "#6750A4",
+        "textColor": "#FFFFFF",
+        "cornerRadius": 16,
+        "textSize": 14,
+        "elevation": 4,
+        "padding": 16,
+        "margin": 8,
+        "icon": "widgets",
+        "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+        "tags": [
+          "education",
+          "Language",
+          "template",
+          "appbuilder",
+          "m3",
+          "material3"
+        ],
+        "actions": [
+          "onClick",
+          "onLongClick",
+          "onSwipeLeft",
+          "onSwipeRight",
+          "onDrag",
+          "onDrop"
+        ],
+        "style": "material3",
+        "theme": "dynamic",
+        "animation": "fade_in",
+        "duration": 300,
+        "delay": 0,
+        "easing": "ease_out",
+        "accessibility": {
+          "contentDescription": "Language widget",
+          "importantForAccessibility": "yes"
+        }
+      }
+    },
+    {
+      "id": "w_29",
+      "type": "toolbar",
+      "name": "Widget 29",
+      "x": 463,
+      "y": 807,
+      "width": 499,
+      "height": 173,
+      "properties": {
+        "text": "Component 29 in Language",
+        "title": "Language Card",
+        "hint": "Enter Language...",
+        "backgroundColor": "#6750A4",
+        "textColor": "#FFFFFF",
+        "cornerRadius": 16,
+        "textSize": 14,
+        "elevation": 4,
+        "padding": 16,
+        "margin": 8,
+        "icon": "widgets",
+        "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+        "tags": [
+          "education",
+          "Language",
+          "template",
+          "appbuilder",
+          "m3",
+          "material3"
+        ],
+        "actions": [
+          "onClick",
+          "onLongClick",
+          "onSwipeLeft",
+          "onSwipeRight",
+          "onDrag",
+          "onDrop"
+        ],
+        "style": "material3",
+        "theme": "dynamic",
+        "animation": "fade_in",
+        "duration": 300,
+        "delay": 0,
+        "easing": "ease_out",
+        "accessibility": {
+          "contentDescription": "Language widget",
+          "importantForAccessibility": "yes"
+        }
+      }
+    }
+  ],
+  "screens": [
+    {
+      "name": "Main",
+      "widgets": [
+        {
+          "id": "w_10",
+          "type": "button",
+          "name": "Widget 10",
+          "x": 470,
+          "y": 830,
+          "width": 210,
+          "height": 250,
+          "properties": {
+            "text": "Component 10 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_11",
+          "type": "text",
+          "name": "Widget 11",
+          "x": 517,
+          "y": 913,
+          "width": 241,
+          "height": 267,
+          "properties": {
+            "text": "Component 11 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_12",
+          "type": "card",
+          "name": "Widget 12",
+          "x": 564,
+          "y": 996,
+          "width": 272,
+          "height": 84,
+          "properties": {
+            "text": "Component 12 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_13",
+          "type": "input",
+          "name": "Widget 13",
+          "x": 611,
+          "y": 1079,
+          "width": 303,
+          "height": 101,
+          "properties": {
+            "text": "Component 13 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_14",
+          "type": "list",
+          "name": "Widget 14",
+          "x": 658,
+          "y": 1162,
+          "width": 334,
+          "height": 118,
+          "properties": {
+            "text": "Component 14 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_15",
+          "type": "image",
+          "name": "Widget 15",
+          "x": 705,
+          "y": 1245,
+          "width": 365,
+          "height": 135,
+          "properties": {
+            "text": "Component 15 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_16",
+          "type": "search_bar",
+          "name": "Widget 16",
+          "x": 752,
+          "y": 1328,
+          "width": 396,
+          "height": 152,
+          "properties": {
+            "text": "Component 16 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_17",
+          "type": "nav_bar",
+          "name": "Widget 17",
+          "x": 799,
+          "y": 1411,
+          "width": 427,
+          "height": 169,
+          "properties": {
+            "text": "Component 17 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_18",
+          "type": "tab",
+          "name": "Widget 18",
+          "x": 846,
+          "y": 1494,
+          "width": 458,
+          "height": 186,
+          "properties": {
+            "text": "Component 18 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_19",
+          "type": "toolbar",
+          "name": "Widget 19",
+          "x": 893,
+          "y": 1577,
+          "width": 489,
+          "height": 203,
+          "properties": {
+            "text": "Component 19 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_20",
+          "type": "button",
+          "name": "Widget 20",
+          "x": 40,
+          "y": 60,
+          "width": 220,
+          "height": 220,
+          "properties": {
+            "text": "Component 20 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_21",
+          "type": "text",
+          "name": "Widget 21",
+          "x": 87,
+          "y": 143,
+          "width": 251,
+          "height": 237,
+          "properties": {
+            "text": "Component 21 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_22",
+          "type": "card",
+          "name": "Widget 22",
+          "x": 134,
+          "y": 226,
+          "width": 282,
+          "height": 254,
+          "properties": {
+            "text": "Component 22 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_23",
+          "type": "input",
+          "name": "Widget 23",
+          "x": 181,
+          "y": 309,
+          "width": 313,
+          "height": 271,
+          "properties": {
+            "text": "Component 23 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_24",
+          "type": "list",
+          "name": "Widget 24",
+          "x": 228,
+          "y": 392,
+          "width": 344,
+          "height": 88,
+          "properties": {
+            "text": "Component 24 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_25",
+          "type": "image",
+          "name": "Widget 25",
+          "x": 275,
+          "y": 475,
+          "width": 375,
+          "height": 105,
+          "properties": {
+            "text": "Component 25 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_26",
+          "type": "search_bar",
+          "name": "Widget 26",
+          "x": 322,
+          "y": 558,
+          "width": 406,
+          "height": 122,
+          "properties": {
+            "text": "Component 26 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_27",
+          "type": "nav_bar",
+          "name": "Widget 27",
+          "x": 369,
+          "y": 641,
+          "width": 437,
+          "height": 139,
+          "properties": {
+            "text": "Component 27 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_28",
+          "type": "tab",
+          "name": "Widget 28",
+          "x": 416,
+          "y": 724,
+          "width": 468,
+          "height": 156,
+          "properties": {
+            "text": "Component 28 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_29",
+          "type": "toolbar",
+          "name": "Widget 29",
+          "x": 463,
+          "y": 807,
+          "width": 499,
+          "height": 173,
+          "properties": {
+            "text": "Component 29 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        }
+      ],
+      "navigationBar": true,
+      "toolbar": true
+    },
+    {
+      "name": "Detail",
+      "widgets": [
+        {
+          "id": "w_10",
+          "type": "button",
+          "name": "Widget 10",
+          "x": 470,
+          "y": 830,
+          "width": 210,
+          "height": 250,
+          "properties": {
+            "text": "Component 10 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_11",
+          "type": "text",
+          "name": "Widget 11",
+          "x": 517,
+          "y": 913,
+          "width": 241,
+          "height": 267,
+          "properties": {
+            "text": "Component 11 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_12",
+          "type": "card",
+          "name": "Widget 12",
+          "x": 564,
+          "y": 996,
+          "width": 272,
+          "height": 84,
+          "properties": {
+            "text": "Component 12 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_13",
+          "type": "input",
+          "name": "Widget 13",
+          "x": 611,
+          "y": 1079,
+          "width": 303,
+          "height": 101,
+          "properties": {
+            "text": "Component 13 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_14",
+          "type": "list",
+          "name": "Widget 14",
+          "x": 658,
+          "y": 1162,
+          "width": 334,
+          "height": 118,
+          "properties": {
+            "text": "Component 14 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_15",
+          "type": "image",
+          "name": "Widget 15",
+          "x": 705,
+          "y": 1245,
+          "width": 365,
+          "height": 135,
+          "properties": {
+            "text": "Component 15 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        }
+      ],
+      "toolbar": true
+    },
+    {
+      "name": "Settings",
+      "widgets": [
+        {
+          "id": "w_14",
+          "type": "list",
+          "name": "Widget 14",
+          "x": 658,
+          "y": 1162,
+          "width": 334,
+          "height": 118,
+          "properties": {
+            "text": "Component 14 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_15",
+          "type": "image",
+          "name": "Widget 15",
+          "x": 705,
+          "y": 1245,
+          "width": 365,
+          "height": 135,
+          "properties": {
+            "text": "Component 15 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_16",
+          "type": "search_bar",
+          "name": "Widget 16",
+          "x": 752,
+          "y": 1328,
+          "width": 396,
+          "height": 152,
+          "properties": {
+            "text": "Component 16 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_17",
+          "type": "nav_bar",
+          "name": "Widget 17",
+          "x": 799,
+          "y": 1411,
+          "width": 427,
+          "height": 169,
+          "properties": {
+            "text": "Component 17 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_18",
+          "type": "tab",
+          "name": "Widget 18",
+          "x": 846,
+          "y": 1494,
+          "width": 458,
+          "height": 186,
+          "properties": {
+            "text": "Component 18 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        },
+        {
+          "id": "w_19",
+          "type": "toolbar",
+          "name": "Widget 19",
+          "x": 893,
+          "y": 1577,
+          "width": 489,
+          "height": 203,
+          "properties": {
+            "text": "Component 19 in Language",
+            "title": "Language Card",
+            "hint": "Enter Language...",
+            "backgroundColor": "#6750A4",
+            "textColor": "#FFFFFF",
+            "cornerRadius": 16,
+            "textSize": 14,
+            "elevation": 4,
+            "padding": 16,
+            "margin": 8,
+            "icon": "widgets",
+            "description": "This is a detailed description of the Language template component. It includes various properties and settings that can be customized by the user through the property panel. Users can modify colors, sizes, text, margins, padding, and many other attributes.",
+            "tags": [
+              "education",
+              "Language",
+              "template",
+              "appbuilder",
+              "m3",
+              "material3"
+            ],
+            "actions": [
+              "onClick",
+              "onLongClick",
+              "onSwipeLeft",
+              "onSwipeRight",
+              "onDrag",
+              "onDrop"
+            ],
+            "style": "material3",
+            "theme": "dynamic",
+            "animation": "fade_in",
+            "duration": 300,
+            "delay": 0,
+            "easing": "ease_out",
+            "accessibility": {
+              "contentDescription": "Language widget",
+              "importantForAccessibility": "yes"
+            }
+          }
+        }
+      ],
+      "toolbar": true
+    }
+  ],
+  "theme": {
+    "primary": "#6750A4",
+    "primaryVariant": "#553C9A",
+    "secondary": "#625B71",
+    "tertiary": "#7D5260",
+    "background": "#FFFBFE",
+    "surface": "#FFFBFE",
+    "surfaceVariant": "#E8E0EB",
+    "onPrimary": "#FFFFFF",
+    "onSecondary": "#FFFFFF",
+    "onBackground": "#1C1B1F",
+    "onSurface": "#1C1B1F",
+    "isDark": false
+  },
+  "config": {
+    "gridSize": 24,
+    "snapToGrid": true,
+    "showRulers": true,
+    "exportFormats": [
+      "html",
+      "kotlin"
+    ],
+    "previewDevices": [
+      "phone",
+      "tablet",
+      "foldable"
+    ],
+    "autoSave": true,
+    "undoHistory": 50
+  }
+}
